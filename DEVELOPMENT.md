@@ -20,3 +20,11 @@
 
 ## 권장 구현 경계
 현재 정적 앱은 외부 의존성 없이 실행한다. 업무와 상태 관리가 커지면 React/TypeScript로 UI를 옮기고 데이터 모델을 유지한다. 서버는 FastAPI + PostgreSQL을 별도 배포한다. 정적 GitHub Pages에는 비밀키·개인정보·내부 지침을 넣지 않는다.
+
+## 브라우저 확인 결과
+로컬 브라우저에서 6개 업무 표시, 한국어 문장 검색 후 상세 화면 이동, 체크 상태 새로고침 후 유지, 업무별 체크 초기화, 수정 초안 복사를 확인했습니다. 390px 모바일 화면에서 가로 넘침이 없고 카드 배치가 정상임을 확인했습니다. TXT 파일 다운로드와 실제 인쇄 출력은 수동 최종 확인이 남아 있습니다.
+
+## 저장소 및 배포
+- 독립 저장소: https://github.com/leeyoungho205/gb-edulaw
+- GitHub Pages 주소: https://leeyoungho205.github.io/gb-edulaw/
+- 배포 원본: main 브랜치의 /docs
